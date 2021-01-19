@@ -1,6 +1,6 @@
 module Relation.Binary.PropositionalEquality (
-    type (≡)(..)
+    type (:=:)(..)
 ) where
 
-data a ≡ b where
-    Refl :: a -> a -> a ≡ a
+data a :=: b where
+    Refl :: a -> a -> a :=: a
